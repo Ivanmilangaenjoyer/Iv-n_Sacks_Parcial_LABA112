@@ -1,11 +1,4 @@
-# Se dispone de un archivo con datos acerca de películas, que tiene el siguiente formato:
-# id_peli, titulo, genero, rating
-# por ejemplo: 1,Adventures of Rocky,sin genero,0
-# 2,My Brother the Devil,sin genero,0
-# 3,Criminal,sin genero,0
-# Se deberá realizar un programa que permita el análisis de dicho archivo y sea capaz de generar
-# nuevos archivos de salida de formato similar filtrados por varios criterios:
-# el programa contará con el siguiente menú:
+# Iván Sacks 2024 Parcial 1
 # 1) Cargar archivo .CSV: Se pedirá el nombre del archivo y se cargará en una lista de
 # diccionarios los elementos
 # del mismo.

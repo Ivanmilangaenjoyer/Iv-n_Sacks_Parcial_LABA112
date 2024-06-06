@@ -159,31 +159,6 @@ def ordenar_genero_rating_dsc(lista: list):
 
 
 def guardar_peliculas_json(lista: list, path: str):
-    # with open(f"{path}/Parcial-2024-Bauss-/p.e.ordenadas.json", "w", encoding = "utf-8") as archivo:
-    #     archivo.write("ID           TITULO                  GENERO         RATING\n")
-    #     for i in range(len(lista)):
-    #             id = f"{lista[i]["id"]:3}  "
-    #             genero = lista[i]["genero"]
-    #             titulo = f"  {lista[i]["titulo"]:<30} " 
-    #             rating = f"     {lista[i]["rating"]:2}\n"
-
-    #             archivo.write(id)
-    #             archivo.write(titulo)
-    #             archivo.write(genero)
-    #             archivo.write(rating)
-
     with open(f"{path}/Parcial-2024-Bauss-/p.e.ordenadas.json", "w", encoding = "utf-8") as archivo:
-        # for i in range(len(lista)):
-                # id = f"{lista[i]["id"]:3}  "
-                # genero = lista[i]["genero"]
-                # titulo = f"  {lista[i]["titulo"]:<30} " 
-                # rating = f"     {lista[i]["rating"]:2}\n"
-
-                # archivo.write(id)
-                # archivo.write(titulo)
-                # archivo.write(genero)
-                # archivo.write(rating)
-
-
         json.dump(lista, archivo, ensure_ascii = False, indent = 4)
 
