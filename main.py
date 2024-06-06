@@ -22,7 +22,7 @@ import os
 from modulo_funciones import *
 
 path_0 = os.getcwd()
-path = os.path.join(path_0, "Parcial-2024-Bauss-/movies.csv")
+path = os.path.join(path_0, "Iv-n_Sacks_Parcial_LABA112movies.csv")
 
 programa = True
 menu_opciones = ("Que desea hacer?\n"
