@@ -22,7 +22,8 @@ import os
 from modulo_funciones import *
 
 path_0 = os.getcwd()
-path = os.path.join(path_0, "Iv-n_Sacks_Parcial_LABA112/movies.csv")
+# D:\Programación\nuevo_2024\Iv-n_Sacks_Parcial_LABA112-main\movies.csv
+path = os.path.join(path_0, "movies.csv")
 
 programa = True
 menu_opciones = ("Que desea hacer?\n"
@@ -35,7 +36,7 @@ menu_opciones = ("Que desea hacer?\n"
                 "7: Informar Mejor Rating\n"
                 "8: Guardar películas\n"
                 "9: Salir\n")
-
+print(path_0)
 while programa:
     
     opcion = input(menu_opciones)

@@ -9,7 +9,7 @@ def cargar_csv(path: str) -> list:
         path (str): Dirección de memoria
 
     Returns:
-        Lista(list): Una lista de diccionarios
+        Lista(list): Una lista de diccionarios3
     """
     with open(path, "r", encoding = "utf-8") as archivo:
         lista = []
@@ -88,7 +88,7 @@ def filtrar_genero(lista:list, genero: str, path: str):
         genero (str): EL genero a filtrar
         path (str): La dirrecion de memoria donde crear el archivo
     """
-    with open(f"{path}/Iv-n_Sacks_Parcial_LABA112/p.e.comedias.csv", "w", encoding = "utf-8") as archivo:
+    with open(f"{path}p.e.comedias.csv", "w", encoding = "utf-8") as archivo:
         archivo.write("ID           TITULO                   GENERO      RATING\n")
         for i in range(len(lista)):
             if lista[i]["genero"] == genero:
@@ -159,6 +159,6 @@ def ordenar_genero_rating_dsc(lista: list):
 
 
 def guardar_peliculas_json(lista: list, path: str):
-    with open(f"{path}/Iv-n_Sacks_Parcial_LABA112/p.e.ordenadas.json", "w", encoding = "utf-8") as archivo:
+    with open(f"{path}/p.e.ordenadas.json", "w", encoding = "utf-8") as archivo:
         json.dump(lista, archivo, ensure_ascii = False, indent = 4)
 
