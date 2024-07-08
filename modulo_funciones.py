@@ -61,7 +61,7 @@ def asignar_rating(lista: list, pelicula: int):
 
 
 def asignar_genero(lista: list, pelicula: int):
-    """Recibe una generi y le asigna unode acuerdo a un número aleatorio entre 1 y 4.
+    """Recibe una genero y le asigna uno de acuerdo a un número aleatorio entre 1 y 4.
 
     Args:
         lista (list): La lista a asignar
